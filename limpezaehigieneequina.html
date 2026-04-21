@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/limpezaehigiene.css">
+    <title>Higiene Equina - Protocolo SOS Equisaúde</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpeza e Higiene Equina - SOS Equisaúde</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #0a0a0a;
+            border-radius: 20px;
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.9);
+            border: 1px solid #333;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+            color: #ffd700;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid #ffd700;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        /* MENU DE BOTÕES COLORIDOS E VIBRANTES */
+        .nav-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            padding: 30px;
+            background: #111;
+            justify-content: center;
+        }
+
+        .nav-btn {
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: 800;
+            text-transform: uppercase;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border-radius: 12px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            aspect-ratio: 1 / 1;
+        }
+
+        /* Cores Vibrantes Individuais */
+        .btn-diaria { background: #2ecc71; box-shadow: 0 0 10px rgba(46, 204, 113, 0.4); } /* Verde Saúde */
+        .btn-banho { background: #3498db; box-shadow: 0 0 10px rgba(52, 152, 219, 0.4); }  /* Azul Água */
+        .btn-baias { background: #e67e22; box-shadow: 0 0 10px rgba(230, 126, 34, 0.4); }  /* Laranja Cuidado */
+        .btn-insetos { background: #9b59b6; box-shadow: 0 0 10px rgba(155, 89, 182, 0.4); } /* Roxo Controle */
+        .btn-equip { background: #f1c40f; color: #000; box-shadow: 0 0 10px rgba(241, 196, 15, 0.4); } /* Amarelo Atenção */
+        .btn-ar { background: #1abc9c; box-shadow: 0 0 10px rgba(26, 188, 156, 0.4); }    /* Turquesa Ar Fresco */
+
+        .nav-btn:hover {
+            transform: scale(1.1) translateY(-5px);
+            filter: brightness(1.2);
+            box-shadow: 0 10px 25px rgba(255,255,255,0.2);
+            z-index: 10;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section-title {
+            color: #ffd700;
+            font-size: 1.8em;
+            margin: 50px 0 25px 0;
+            border-left: 5px solid #ffd700;
+            padding-left: 15px;
+            text-transform: uppercase;
+        }
+
+        .info-card {
+            background: #111;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #333;
+            margin-bottom: 30px;
+        }
+
+        .highlight {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        ul { list-style: none; margin-left: 10px; }
+        ul li { margin-bottom: 12px; padding-left: 25px; position: relative; }
+        ul li::before { content: "✓"; position: absolute; left: 0; color: #2ecc71; font-weight: bold; }
+
+        footer {
+            background: #111;
+            padding: 40px;
+            text-align: center;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Limpeza e Higiene Equina</h1>
+            <p>Protocolos de Excelência SOS Equisaúde</p>
+        </header>
+
+        <nav class="nav-menu">
+            <a href="#higiene-diaria" class="nav-btn btn-diaria">Higiene Diária</a>
+            <a href="#banho" class="nav-btn btn-banho">Cuidados no Banho</a>
+            <a href="#baias" class="nav-btn btn-baias">Baias e Piquetes</a>
+            <a href="#parasitas" class="nav-btn btn-insetos">Insetos e Parasitas</a>
+            <a href="#equipamentos" class="nav-btn btn-equip">Equipamentos</a>
+            <a href="#conforto" class="nav-btn btn-ar">Ventilação e Ar</a>
+        </nav>
+
+        <div class="content">
+            
+            <section id="higiene-diaria">
+                <h2 class="section-title">Higiene Diária do Animal</h2>
+                <div class="info-card">
+                    <p>O cavalo precisa de escovação e limpeza diárias, <span class="highlight">mesmo que não seja montado</span>. Esses cuidados removem sujeira, estimulam a circulação e fortalecem o vínculo.</p>
+                    <ul style="margin-top: 20px;">
+                        <li>Escovação completa com cerdas macias e rasqueadeira;</li>
+                        <li>Limpeza dos cascos com gancho apropriado;</li>
+                        <li>Limpeza de olhos, narinas e genitais com panos úmidos individuais;</li>
+                        <li>Secagem completa após o contato com água para evitar fungos.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="banho">
+                <h2 class="section-title">Cuidados no Banho</h2>
+                <div class="info-card">
+                    <p>O banho deve ser feito com moderação e técnica correta para não prejudicar a pele do animal.</p>
+                    <ul style="margin-top: 20px;">
+                        <li>Utilize água em temperatura ambiente (inicie pelas patas);</li>
+                        <li>Evite jatos fortes na cabeça;</li>
+                        <li>Use shampoo neutro específico para equinos;</li>
+                        <li>Em dias frios, evite banho completo; limpe apenas as partes sujas.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="baias">
+                <h2 class="section-title">Higiene das Baias e Piquetes</h2>
+                <div class="info-card">
+                    <p>Ambientes limpos previnem o acúmulo de amônia e umidade.</p>
+                    <ul style="margin-top: 20px;">
+                        <li>Remover fezes e urina diariamente;</li>
+                        <li>Trocar a cama sempre que estiver úmida ou com mau cheiro;</li>
+                        <li>Lavar cochos e bebedouros 2x por semana;</li>
+                        <li>Desinfetar piso e paredes semanalmente.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="parasitas">
+                <h2 class="section-title">Controle de Insetos e Parasitas</h2>
+                <div class="info-card">
+                    <p>O controle integrado reduz o estresse e evita a transmissão de doenças.</p>
+                    <ul style="margin-top: 20px;">
+                        <li>Retirar restos de ração e fezes todos os dias;</li>
+                        <li>Usar armadilhas e repelentes naturais (citronela);</li>
+                        <li>Aplicar repelentes tópicos veterinários;</li>
+                        <li>Controle estratégico de verminose.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="equipamentos">
+                <h2 class="section-title">Limpeza de Equipamentos</h2>
+                <div class="info-card">
+                    <p>Equipamentos sujos causam dermatites e feridas de pressão.</p>
+                    <ul style="margin-top: 20px;">
+                        <li>Lavar mantas e cabeções regularmente;</li>
+                        <li>Limpar arreios de couro e aplicar óleo de conservação;</li>
+                        <li>Não compartilhar equipamentos entre animais diferentes;</li>
+                        <li>Guardar em local seco e ventilado.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="conforto">
+                <h2 class="section-title">Ventilação e Conforto</h2>
+                <div class="info-card">
+                    <p>Ar fresco reduz a proliferação de fungos e bactérias.</p>
+                    <ul style="margin-top: 20px;">
+                        <li>Manter janelas amplas para circulação de ar;</li>
+                        <li>Evitar ambientes abafados que favorecem doenças respiratórias;</li>
+                        <li>Evitar correntes de vento diretas em animais suados;</li>
+                        <li>Pé-direito alto para dissipação de calor.</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            <p><strong>SOS EQUISAÚDE</strong> - Protocolo de Higiene Integral © 2026</p>
+        </footer>
+    </div>
+
+</body>
+</html>

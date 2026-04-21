@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Painel de Cuidados Equinos</title>
+    <style>
+        /* Estilo para centralização total e estética Dark Profissional */
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px; /* Espaço entre os botões */
+        }
+
+        .icon-link {
+            text-decoration: none;
+            width: 90%;
+            max-width: 420px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .icon-link img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        /* Efeito de destaque ao passar o mouse */
+        .icon-link img:hover {
+            transform: scale(1.04);
+            border-color: #ffd700; /* Destaque em dourado */
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+        }
+
+        /* Oculta o ícone de imagem quebrada se o arquivo não for encontrado */
+        img:not([src]) {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="cuidadosgeraiscomcavalo.html" class="icon-link">
+        <img src="img/cuidadosgeraisemequinos-inicial.png.png" alt="Cuidados Gerais">
+    </a>
+
+    <a href="doencasemcavalos.html" class="icon-link">
+        <img src="img/doençasemequinos-inicial.png.png" alt="Doenças em Equinos">
+    </a>
+
+    <a href="limpezaehigieneequina.html" class="icon-link">
+        <img src="img/limpezaehigienedocavalo-inicial.png.png" alt="Limpeza e Higiene">
+    </a>
+
+    <a href="manejoreprodutivo.html" class="icon-link">
+        <img src="img/manejoreprodutivo-inicial.png.png" alt="Manejo Reprodutivo">
+    </a>
+
+    <a href="manejonutricional.html" class="icon-link">
+        <img src="img/nutrição.equina-inicial.png.png" alt="Nutrição Equina">
+    </a>
+
+    <a href="primeirossocorros.html" class="icon-link">
+        <img src="img/primeirossocorrosequi-inicial.png.png" alt="Primeiros Socorros">
+    </a>
+
+    <a href="antesdecomprar.html" class="icon-link">
+        <img src="img/antesdecomprar-inicial.png.png" alt="O que saber antes de comprar">
+    </a>
+
+    <a href="bemestar.html" class="icon-link">
+        <img src="img/bemestarequino-inicial.png.png" alt="Bem Estar Equino">
+    </a>
+
+    <a href="curiosidades.html" class="icon-link">
+        <img src="img/curiosidadesequinas-inicial.png.png" alt="Curiosidades Equinas">
+    </a>
+
+    <a href="desenvolvedores.html" class="icon-link">
+        <img src="img/desenvolvedores.png.png" alt="Desenvolvedores">
+    </a>
+
+    <a href="apoiadores.html" class="icon-link">
+        <img src="img/apoiadores.png.png" alt="Apoiadores">
+    
+    </a>
+</div>
+
+</body>
+</html>
