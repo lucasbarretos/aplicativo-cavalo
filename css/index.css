@@ -1,0 +1,49 @@
+    /* Estilo para centralização total e estética Dark Profissional */
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px; /* Espaço entre os botões */
+        }
+
+        .icon-link {
+            text-decoration: none;
+            width: 90%;
+            max-width: 420px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .icon-link img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        /* Efeito de destaque ao passar o mouse */
+        .icon-link img:hover {
+            transform: scale(1.04);
+            border-color: #ffd700; /* Destaque em dourado */
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+        }
+
+        /* Oculta o ícone de imagem quebrada se o arquivo não for encontrado */
+        img:not([src]) {
+            visibility: hidden;
+        }

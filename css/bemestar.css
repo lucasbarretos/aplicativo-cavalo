@@ -1,0 +1,75 @@
+body {
+color: white;
+background-color: #333;
+padding: 30px;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+max-width: 900px;
+margin: 0 auto;
+}
+h1 {
+color: white;
+text-align: center;
+font-size: 2.2em;
+margin-bottom: 30px;
+}
+h2 {
+color: #ffd700;
+font-size: 1.5em;
+margin: 25px 0 15px 0;
+border-bottom: 2px solid #ffd700;
+padding-bottom: 8px;
+}
+.transit-title, .vet-title {
+color: white !important;
+text-align: center !important;
+font-size: 1.6em !important;
+margin: 30px 0 20px 0 !important;
+border-bottom: 2px solid white !important;
+padding-bottom: 10px !important;
+}
+h3 {
+color: #00ff88;
+font-size: 1.3em;
+margin: 20px 0 10px 0;
+}
+ul {
+margin: 15px 0;
+padding-left: 25px;
+}
+li {
+margin-bottom: 8px;
+}
+.bullet-custom {
+list-style-type: none;
+padding-left: 0;
+}
+.bullet-custom li {
+padding-left: 25px;
+position: relative;
+margin-bottom: 10px;
+}
+.bullet-custom li::before {
+content: "•";
+color: #ffd700;
+font-weight: bold;
+font-size: 1.2em;
+position: absolute;
+left: 0;
+}
+.emoji {
+font-size: 1.1em;
+}
+.warning {
+background: rgba(255, 0, 0, 0.2);
+border-left: 5px solid #ff4444;
+padding: 15px;
+margin: 20px 0;
+color: white;
+}
+.number-list {
+padding-left: 25px;
+}
+strong {
+color: #ffd700;
+}
