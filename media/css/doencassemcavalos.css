@@ -1,0 +1,116 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .main-title {
+            color: #ffd700;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .sub-title {
+            color: #3498db;
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 20px;
+        }
+
+        .section-box, .content-box {
+            background: #0d0d0d;
+            border: 1px solid #222;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .highlight-title {
+            color: #ffd700;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            border-left: 4px solid #ffd700;
+            padding-left: 15px;
+            text-transform: uppercase;
+        }
+
+        .disease-title {
+            color: #ffd700;
+            font-size: 1.8rem;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            margin: 30px 0 15px 0;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: #ffd700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #ccc;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            list-style-position: inside;
+            color: #ccc;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #fff;
+        }
+
+        .important-note {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .divider {
+            height: 1px;
+            background: #333;
+            margin: 40px 0;
+        }
+
+        .clinical-warning {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .main-title { font-size: 1.8rem; }
+            .section-box, .content-box { padding: 20px; }
+            .disease-title { font-size: 1.5rem; }
+        }

@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+
+}
+
+
 .black-section {
     background-color: #000;
     color: #fff;
